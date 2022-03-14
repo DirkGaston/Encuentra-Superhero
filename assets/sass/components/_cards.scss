@@ -1,0 +1,29 @@
+.card {
+    position: relative;
+    background: #FFFF00;
+    padding: 25px;
+    width:auto;
+    max-width: 400px;
+    margin: 0 auto; 
+    border: solid black;
+    border-color: black;
+    border-width: 5px 3px 3px 5px;
+    transform: rotate(0.7deg);
+
+    & img {
+        border: solid black;
+        border-width: 5px 3px 3px 5px;
+    }
+  }
+
+.list-group-item {
+    border: solid black;
+    border-color: black;
+    border-width: 5px 3px 3px 5px;  
+}
+
+.canvasjs-chart-canvas {
+    border: solid black;
+    border-color: black;
+    border-width: 5px 3px 3px 5px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuentra tu SuperHero</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"
+        integrity="sha512-FJ2OYvUIXUqCcPf1stu+oTBlhn54W0UisZB/TNrZaVMHHhYvLBV9jMbvJYtvDe5x/WVaoXZ6KB+Uqe5hT2vlyA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+        integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="header_Title">
+            <h1>FIND YOUR...</h1>
+        </div>
+    </header>
+
+    <section class="main">
+
+        <div class="main_Image">
+            <img src="assets/img/sh2_transparent.png" alt="mainImage">
+        </div>
+
+        <form class="main_Form">
+
+            <input id="main_Form-input" type="text"
+                placeholder="Ingresa el numero de ID de tu superheroe...">
+            <button id="main_Form-search" type="submit">LET'S GO!</button>>
+
+        </form>
+
+    </section>
+
+    <div class="row" id="heRow">
+
+        <div class="col-md-3" id="heroCard">
+            <div class="display" id="heroData">
+
+            </div>
+        </div>
+
+        <div class="col-md-4" id="heroChart">
+            <div id="chartContainer">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

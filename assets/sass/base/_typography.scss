@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'back_issues_bbbold_italic';
+    src: url('backissuesbb_boldital-webfont.woff2') format('woff2'),
+         url('backissuesbb_boldital-webfont.woff') format('woff'),
+         url('back-issues-bb.bold-italic.ttf') format('truetype'),
+         url('fonts/BackIssuesBB_boldital.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'back_issues_bbitalic';
+    src: url('backissuesbb_ital-webfont.woff2') format('woff2'),
+         url('backissuesbb_ital-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'back_issues_bbregular';
+    src: url('backissuesbb_reg-webfont.woff2') format('woff2'),
+         url('backissuesbb_reg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'badaboom_bbregular';
+    src: url('badaboombb_reg-webfont.woff2') format('woff2'),
+         url('badaboombb_reg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dpcomic';
+    src: url('dpcomic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    font-family: 'back_issues_bbbold_italic', sans-serif;
+    font-size: 3rem;
+    color: #F6EE33;
+    text-shadow: 
+        -1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}   
+
+button {
+    font-family: 'back_issues_bbbold_italic', sans-serif;
+    font-size: 2rem;
+    text-shadow: 
+        -1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+input {
+    font-family: 'badaboom_bbregular';
+    font-size: 1.2rem;
+}
+
+::placeholder {
+    font-family: 'badaboom_bbregular';
+    font-size: 1.2rem;
+    color: red;
+    text-align: center;
+  }
+
+.card {
+    font-family: 'back_issues_bbregular';
+
+}
