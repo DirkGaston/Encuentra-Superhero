@@ -11179,7 +11179,7 @@ input {
 
 body {
   height: 100vh;
-  background-image: url("/assets/img/2449564.jpg");
+  background-image: url("../img/2449564.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
